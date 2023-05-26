@@ -10,7 +10,15 @@ To get started with php-auth0, follow these steps:
 
 1. Clone the repository or download the source code from [https://github.com/kmusiclife/php-auth0](https://github.com/kmusiclife/php-auth0).
 
+```bash
+git clone https://github.com/kmusiclife/php-auth0
+```
+
 2. Run composer install in the root directory of your project to download and install the required packages.
+
+```bash
+cd php-auth0
+```
 
 ```bash
 composer update
@@ -24,11 +32,11 @@ touch .env
 ```
 
 ```dotenv
-AUTH0_CLIENT_ID=
-AUTH0_DOMAIN=
-AUTH0_CLIENT_SECRET=
-AUTH0_COOKIE_SECRET=
-AUTH0_BASE_URL=
+AUTH0_CLIENT_ID=xxxxxxxxxxxxxxxxxx
+AUTH0_DOMAIN=xxxxxxxxxxxxxxxxxxxxx
+AUTH0_CLIENT_SECRET=xxxxxxxxxxxxxx
+AUTH0_COOKIE_SECRET=xxxxxxxxxxxxxx
+AUTH0_BASE_URL=xxxxxxxxxxxxxxxxxxx
 ```
 
 4. Include the `php-auth0.php` file in your PHP project:
