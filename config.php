@@ -16,4 +16,3 @@ define('ROUTE_URL_CALLBACK', home_url('/callback'));
 define('ROUTE_URL_LOGOUT', home_url('/logout'));
 
 $session = $auth0->getCredentials();
-

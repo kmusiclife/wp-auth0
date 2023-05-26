@@ -5,7 +5,7 @@ add_action( 'init', function(){
 	$raw_current_url = (is_ssl() ? 'https':'http') . '://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 	$parsed_url = parse_url($raw_current_url);
 	$encoded_current_url = $parsed_url['scheme'].'://'.$parsed_url['host'].$parsed_url['path'];
-	
+
 	if( $encoded_current_url == ROUTE_URL_LOGIN ){
 		include('config.php');
 	    $auth0->clear();
