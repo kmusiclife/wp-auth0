@@ -1,0 +1,15 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "guzzlehttp/psr7": "^2.5",
+        "http-interop/http-factory-guzzle": "^1.2",
+        "auth0/auth0-php": "^8.6",
+        "vlucas/phpdotenv": "^5.5",
+        "steampixel/simple-php-router": "^0.7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
