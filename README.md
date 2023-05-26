@@ -4,6 +4,8 @@
 
 This repository is available at [https://github.com/kmusiclife/php-auth0](https://github.com/kmusiclife/php-auth0).
 
+The official Auth0 description can be found here [https://auth0.com/docs/quickstart/webapp/php](https://auth0.com/docs/quickstart/webapp/php) .
+
 ## Installation
 
 To get started with php-auth0, follow these steps:
