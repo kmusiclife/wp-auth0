@@ -11,8 +11,8 @@ $auth0 = new \Auth0\SDK\Auth0([
     'cookieSecret' => $_ENV['AUTH0_COOKIE_SECRET']
 ]);
 define('ROUTE_URL_INDEX', home_url('/'));
-define('ROUTE_URL_LOGIN', home_url('/login'));
+define('ROUTE_URL_LOGIN', home_url('/signin'));
 define('ROUTE_URL_CALLBACK', home_url('/callback'));
-define('ROUTE_URL_LOGOUT', home_url('/logout'));
+define('ROUTE_URL_LOGOUT', home_url('/signout'));
 
 $session = $auth0->getCredentials();
